@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doSet">Set</string>
+    <string name="about">About</string>
+    <string name="platform">Platform</string>
+    <string name="AreYouStillThere">Are You Still There</string>
+    <string name="Stab">Stab</string>
+    <string name="SuperCollide">Super Collide</string>
+    <string name="IfCubeSpeaks">If Cube Speaks</string>
+    <string name="CubeSpeaks">Cube Speaks</string>
+    <string name="BakedCake">Baked Cake</string>
+    <string name="PartyEscort">Party Escort position</string>
+    <string name="GunYellow">Yellow Gun</string>
+    <string name="GunBlue">Blue Gun</string>
+    <string name="Kidding">You Are Kidding</string>
+    <string name="Who">Who Are You</string>
+    <string name="Sorry">Sorry</string>
+    <string name="Excuse">Excuse Me</string>
+    <string name="Coming">Coming Through</string>
+    <string name="Activated">Activated</string>
+    <string name="BigParty">A Big Party</string>
+    <string name="StillAlive">Still Alive</string>
+    <string name="Button01">Still Alive</string>
+    
+    <string name="app_name">Portal SoundBoard</string>
+
+<string name="Version">1.0</string>
+<string name="SaveNotification">Save As Notification</string>
+<string name="SaveRingtone">Save As Ringtone</string>
+<string name="SaveMusic">Save as Music</string>
+</resources>

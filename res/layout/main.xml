@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+
+ android:id="@+id/RelativeLayout01" 
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent" 
+ xmlns:android="http://schemas.android.com/apk/res/android" 
+ xmlns:app="http://schemas.android.com/apk/res/com.jamesarchuleta.PortalSoundBoard"
+ android:background="@drawable/background" >
+ 
+   
+
+ <ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/ad">
+
+        
+
+        
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="fill" android:paddingBottom="50px" android:padding="1px" android:layout_marginBottom="100px">
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:text="@string/app_name" android:textSize="40sp" android:layout_marginBottom="14px"></TextView>
+
+
+
+<TableRow android:layout_width="fill_parent" android:layout_gravity="fill" android:gravity="center_horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal|center" android:id="@+id/StillAlive" android:text="@string/StillAlive"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BigParty" android:id="@+id/BigParty"></Button>
+</TableRow>
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Activated" android:text="@string/Activated"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Coming" android:id="@+id/Coming"></Button>
+</TableRow>
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Excuse" android:id="@+id/Excuse"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Sorry" android:id="@+id/Sorry"></Button>
+
+</TableRow>
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Who" android:id="@+id/Who"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Kidding" android:id="@+id/Kidding"></Button>
+
+</TableRow>
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/GunBlue" android:text="@string/GunBlue"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/GunYellow" android:text="@string/GunYellow"></Button>
+</TableRow>
+
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PartyEscort" android:id="@+id/PartyEscort"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/BakedCake" android:text="@string/BakedCake"></Button>
+</TableRow>
+
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Cube_Speaks" android:text="@string/CubeSpeaks"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/IfCubeSpeaks" android:text="@string/IfCubeSpeaks"></Button>
+</TableRow>
+
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SuperCollide" android:text="@string/SuperCollide"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Stab" android:text="@string/Stab"></Button>
+</TableRow>
+
+<TableRow android:layout_gravity="center_vertical|center_horizontal|center" android:gravity="center">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/AreYouStillThere" android:text="@string/AreYouStillThere"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Platform" android:text="@string/platform"></Button>
+</TableRow>
+
+
+</TableLayout></ScrollView>
+ 
+      
+
+<com.admob.android.ads.AdView  
+          android:id="@+id/ad" 
+          android:layout_width="fill_parent" 
+          android:layout_height="50px"
+          android:layout_alignParentBottom="true"
+          app:backgroundColor="#000000"
+          app:primaryTextColor="#FFFFFF"
+          app:secondaryTextColor="#CCCCCC"
+          app:keywords="Android game Portal Sounds Ringtone"
+        />
+
+</RelativeLayout>
+
+
